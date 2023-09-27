@@ -14,16 +14,8 @@ body:
     id: feature-description
     attributes:
       label: Description of the feature
-      description: Tell us what your would like to be able to do
+      description: Tell us what you would like to be able to do
       placeholder: 
     validations:
       required: true
 
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: Steps To Reproduce
-      description: Steps to reproduce the behavior.
-      placeholder: Please write the steps in a list form
-    validations:
-      required: true
