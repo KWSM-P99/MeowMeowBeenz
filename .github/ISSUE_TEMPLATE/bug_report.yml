@@ -8,18 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a bug! 🐛
-
-        Please fill out the sections below to help us reproduce the issue and fix it!
-
-  - type: checkboxes
-    id: new-bug
-    attributes:
-      label: Is there an existing issue for this?
-      description: Please search to see if an issue already exists for the bug you encountered.
-      options:
-      - label: I have searched the existing issues
-        required: true
+        Thanks for taking the time to report a bug 🐛, please fill out the sections below to help us reproduce the issue and fix it!
 
   - type: textarea
     id: bug-description
