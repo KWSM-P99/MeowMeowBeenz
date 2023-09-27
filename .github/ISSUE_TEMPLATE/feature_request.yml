@@ -1,0 +1,29 @@
+name: Feature Request
+description: Sample description of you feature you would like implemented
+title: "[REQ]: "
+labels: [enhancement,triage]
+
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit a request, please fill out the sections below to help us understand your request!
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Description of the feature
+      description: Tell us what your would like to be able to do
+      placeholder: 
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: Please write the steps in a list form
+    validations:
+      required: true
