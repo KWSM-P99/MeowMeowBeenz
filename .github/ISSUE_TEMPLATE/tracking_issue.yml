@@ -15,6 +15,6 @@ body:
     attributes:
       label: Tracked issues
       description: List all of the issues that belong to this tracking issue
-      placeholder: [ ] issue #
+      placeholder: List all of the issues here in a list format
     validations:
       required: true
