@@ -2,6 +2,7 @@ name: 📝 Tracking Issue
 description: This is a template of a large tracking issue. Used to visualize and organize large fetaures or time blocks of work.
 title: "[TRACKING]: "
 labels: [tracking]
+projects: ["MMBZ Planning"]
 
 
 body:
