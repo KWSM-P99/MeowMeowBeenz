@@ -12,7 +12,7 @@ body:
         This is a large work tracking issue.
 
   - type: textarea
-    id: tracking items
+    id: tracking-items
     attributes:
       label: Tracked issues
       description: List all of the issues that belong to this tracking issue
