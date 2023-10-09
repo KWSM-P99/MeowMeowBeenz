@@ -1,0 +1,21 @@
+name: 📝 User Story
+description: Sample description of the user experience you would like implemented
+title: "[USER STORY]: "
+labels: [enhancement,triage]
+
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit a story, please fill out the sections below to help us understand your request!
+
+  - type: textarea
+    id: user-experience
+    attributes:
+      label: Description of the story
+      description: Tell us what you would like to be able to do
+      placeholder: As a [role], I need to do [something], in order to achieve [outcome]
+    validations:
+      required: true
+
